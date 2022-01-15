@@ -4,22 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:orientation="vertical"
-    tools:context=".LoginActivity"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".LoginActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_gravity="center">
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/text_AppTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="114dp"
             android:fontFamily="@font/roboto_medium"
             android:gravity="center"
             android:text="Blood Lagbe?"
@@ -33,20 +32,21 @@
             android:layout_height="64dp"
             android:layout_gravity="center"
             android:layout_marginTop="42dp"
+            android:layout_marginBottom="5dp"
             android:src="@drawable/app_icon" />
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="15dp"
             android:layout_marginBottom="5dp"
             android:theme="@style/TextInputLayoutStyle"
             app:boxStrokeColor="@color/black"
             app:hintTextAppearance="@color/app_PrimaryColor">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/text_RegisterEmail"
+                android:id="@+id/LoginEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
@@ -70,7 +70,7 @@
             app:hintTextAppearance="@color/app_PrimaryColor">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/text_RegisterPassword"
+                android:id="@+id/LoginPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
@@ -81,8 +81,21 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
+        <TextView
+            android:id="@+id/text_ForgotPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/roboto_light"
+            android:gravity="end"
+            android:text="Forgot password?"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
         <Button
-            android:id="@+id/btn_SignIn"
+            android:id="@+id/btn_signIn"
             android:layout_width="212dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
@@ -95,6 +108,12 @@
             android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="normal" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btn_signInGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
 
         <TextView
             android:id="@+id/text_GoToRegistration"

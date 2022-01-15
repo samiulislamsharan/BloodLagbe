@@ -5,13 +5,32 @@
       <map>
         <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/button_background.xml" value="0.25394736842105264" />
         <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/card_background.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/glow_selector.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/ic_baseline_check_circle_outline_24.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/ic_card_profile.xml" value="0.25394736842105264" />
         <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/ic_launcher_background.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/ic_outline_home_24.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/ic_outline_info_24.xml" value="0.25394736842105264" />
         <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/ic_outline_photo_camera_24.xml" value="0.25394736842105264" />
         <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/ic_password_toggle_24.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/nav_header_background.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/nav_selector.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/nav_view_item_selected.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/drawable/translucent_shadow.xml" value="0.25394736842105264" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_category_selected.xml" value="0.24375" />
         <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_donor_registration.xml" value="0.24375" />
         <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_login.xml" value="0.24375" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_main.xml" value="0.24375" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_notifications.xml" value="0.24375" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_profile.xml" value="0.24375" />
         <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_recipient_registration.xml" value="0.24375" />
-        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_select_registration.xml" value="0.25" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_select_registration.xml" value="0.1" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/activity_sent_email.xml" value="0.2348684210526316" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/nav_header.xml" value="0.24375" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/notification_item.xml" value="0.20218579234972678" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/output_layout.xml" value="0.1" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/layout/user_display_layout.xml" value="0.24375" />
+        <entry key="..\:/android_dev/BloodLagbe/app/src/main/res/menu/nav_main_menu.xml" value="0.24136807817589576" />
       </map>
     </option>
   </component>
@@ -20,5 +39,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

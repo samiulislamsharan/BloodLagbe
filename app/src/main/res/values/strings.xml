@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">BloodLagbe</string>
+    <string name="app_name">Blood Lagbe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string-array name="bloodGroups">
         <item>Select your Blood Group</item>

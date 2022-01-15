@@ -20,8 +20,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="74dp"
             android:src="@drawable/avatar_person"
-            app:civ_border_color="#FF000000"
-            app:civ_border_width="4dp" />
+            app:civ_border_color="@color/black"
+            app:civ_border_width="1dp" />
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -34,7 +34,7 @@
             app:hintTextAppearance="@color/app_PrimaryColor">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/text_RegisterFullName"
+                android:id="@+id/input_RegisterFullName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
@@ -56,7 +56,7 @@
             app:hintTextAppearance="@color/app_PrimaryColor">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/text_RegisterNID"
+                android:id="@+id/input_RegisterNID"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
@@ -78,7 +78,7 @@
             app:hintTextAppearance="@color/app_PrimaryColor">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/text_RegisterPhoneNumber"
+                android:id="@+id/input_RegisterPhoneNumber"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
@@ -90,7 +90,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Spinner
-            android:id="@+id/bloodGroupsSpinner"
+            android:id="@+id/input_bloodGroupsSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
@@ -111,7 +111,7 @@
             app:hintTextAppearance="@color/app_PrimaryColor">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/text_RegisterEmail"
+                android:id="@+id/input_RegisterEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
@@ -135,7 +135,7 @@
             app:hintTextAppearance="@color/app_PrimaryColor">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/text_RegisterPassword"
+                android:id="@+id/input_RegisterPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
@@ -147,7 +147,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btn_RecipientRegistration"
+            android:id="@+id/btn_DonorRegistration"
             android:layout_width="212dp"
             android:layout_height="40dp"
             android:layout_gravity="center"

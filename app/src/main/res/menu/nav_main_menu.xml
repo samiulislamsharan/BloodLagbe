@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_outline_home_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/sentEmail"
+        android:icon="@drawable/ic_outline_mail_outline_24"
+        android:title="Recipients Emailed" />
+    <item
+        android:id="@+id/compatible"
+        android:icon="@drawable/ic_outline_person_add_alt_1_24"
+        android:title="Compatible with me" />
+
+    <item android:title="Blood Groups">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/blood_aPositive"
+                    android:icon="@drawable/a_positive"
+                    android:title="A Positive" />
+                <item
+                    android:id="@+id/blood_aNegative"
+                    android:icon="@drawable/a_negative"
+                    android:title="A Negative" />
+                <item
+                    android:id="@+id/blood_bPositive"
+                    android:icon="@drawable/b_positive"
+                    android:title="B Positive" />
+                <item
+                    android:id="@+id/blood_bNegative"
+                    android:icon="@drawable/b_negative"
+                    android:title="B Negative" />
+                <item
+                    android:id="@+id/blood_abPositive"
+                    android:icon="@drawable/ab_positive"
+                    android:title="Ao Positive" />
+                <item
+                    android:id="@+id/blood_abNegative"
+                    android:icon="@drawable/ab_negative"
+                    android:title="AB Negative" />
+                <item
+                    android:id="@+id/blood_oPositive"
+                    android:icon="@drawable/o_positive"
+                    android:title="O Positive" />
+                <item
+                    android:id="@+id/blood_oNegative"
+                    android:icon="@drawable/o_negative"
+                    android:title="O Negative" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Actions">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_round_person_outline_24"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/notifications"
+                    android:icon="@drawable/ic_outline_notifications_24"
+                    android:title="Notifications"
+                    android:visible="false" />
+                <item
+                    android:id="@+id/logOut"
+                    android:icon="@drawable/logout_black_24dp"
+                    android:title="Log Out" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_outline_info_24"
+                    android:title="About this app" />
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_outline_share_24"
+                    android:title="Notifications" />
+                <item
+                    android:id="@+id/rating"
+                    android:icon="@drawable/ic_outline_rate_review_24"
+                    android:title="Log Out" />
+            </group>
+        </menu>
+    </item>
+</menu>
