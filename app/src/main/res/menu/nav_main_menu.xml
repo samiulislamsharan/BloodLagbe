@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
     <item
         android:id="@+id/home"
         android:icon="@drawable/ic_outline_home_24"
@@ -35,7 +42,7 @@
                 <item
                     android:id="@+id/blood_abPositive"
                     android:icon="@drawable/ab_positive"
-                    android:title="Ao Positive" />
+                    android:title="AB Positive" />
                 <item
                     android:id="@+id/blood_abNegative"
                     android:icon="@drawable/ab_negative"

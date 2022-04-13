@@ -5,16 +5,16 @@
     android:layout_height="170dp"
     android:background="@drawable/nav_header_background"
     android:orientation="vertical"
-    android:paddingLeft="20dp"
+    android:paddingLeft="15dp"
     android:paddingTop="5dp"
-    android:paddingRight="20dp">
+    android:paddingRight="15dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
-        android:orientation="horizontal"
-        android:gravity="center_vertical|end">
+        android:layout_marginTop="40dp"
+        android:gravity="center_vertical|end"
+        android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -30,7 +30,7 @@
                 android:fontFamily="@font/roboto_medium"
                 android:text="User Name"
                 android:textColor="@color/black"
-                android:textSize="14sp"
+                android:textSize="15sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -40,7 +40,7 @@
                 android:fontFamily="@font/roboto_light"
                 android:text="user@domain.com"
                 android:textColor="@color/black"
-                android:textSize="12sp"
+                android:textSize="13sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -50,7 +50,7 @@
                 android:fontFamily="@font/roboto_light"
                 android:text="Blood Group: "
                 android:textColor="@color/black"
-                android:textSize="12sp"
+                android:textSize="13sp"
                 android:textStyle="normal" />
 
             <TextView
@@ -60,20 +60,19 @@
                 android:fontFamily="@font/roboto_light"
                 android:text="User Type: "
                 android:textColor="@color/black"
-                android:textSize="12sp"
+                android:textSize="13sp"
                 android:textStyle="normal" />
 
         </LinearLayout>
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/nav_userProfileImage"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:src="@drawable/avatar_person"
             app:civ_border_color="@color/black"
-            app:civ_border_width="1dp" />
+            app:civ_border_width="0.5dp" />
 
     </LinearLayout>
-
 
 </LinearLayout>

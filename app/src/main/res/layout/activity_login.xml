@@ -97,7 +97,7 @@
         <Button
             android:id="@+id/btn_signIn"
             android:layout_width="212dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="5dp"
@@ -108,12 +108,6 @@
             android:textColor="@color/white"
             android:textSize="14sp"
             android:textStyle="normal" />
-
-        <com.google.android.gms.common.SignInButton
-            android:id="@+id/btn_signInGoogle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center" />
 
         <TextView
             android:id="@+id/text_GoToRegistration"
