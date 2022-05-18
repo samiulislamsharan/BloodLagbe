@@ -9,5 +9,9 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="app_PrimaryColor">#ff0000</color>
+    <color name="app_PrimaryColorActionbar">#B90101</color>
+    <color name="app_SecondaryColorActionbar">#C8C8C8</color>
     <color name="transparent">#20000000</color>
+    <color name="Granite_Gray">#666666</color>
+    <color name="successful_green">#198754</color>
 </resources>

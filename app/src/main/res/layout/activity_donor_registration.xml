@@ -18,8 +18,7 @@
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_gravity="center"
-            android:layout_marginTop="74dp"
-            android:src="@drawable/avatar_person"
+            android:src="@drawable/profile_avatar"
             app:civ_border_color="@color/black"
             app:civ_border_width="1dp" />
 
@@ -90,6 +89,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Spinner
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:id="@+id/input_bloodGroupsSpinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -98,6 +98,7 @@
             android:background="@color/white"
             android:entries="@array/bloodGroups"
             android:gravity="center"
+            android:minHeight="48dp"
             android:padding="9dp" />
 
         <com.google.android.material.textfield.TextInputLayout
@@ -115,7 +116,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:hint="Enter Email"
+                android:hint="@string/enter_email"
                 android:inputType="textEmailAddress"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -139,7 +140,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/roboto"
-                android:hint="Enter Password"
+                android:hint="@string/enter_password"
                 android:inputType="textPassword"
                 android:textColor="@color/black"
                 android:textSize="18sp" />
@@ -149,7 +150,7 @@
         <Button
             android:id="@+id/btn_DonorRegistration"
             android:layout_width="212dp"
-            android:layout_height="40dp"
+            android:layout_height="48dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="5dp"

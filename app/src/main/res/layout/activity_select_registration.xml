@@ -22,13 +22,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_gravity="center_vertical">
 
             <TextView
                 android:id="@+id/text_RegTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="265dp"
                 android:fontFamily="@font/roboto_medium"
                 android:gravity="center"
                 android:text="Are You?"

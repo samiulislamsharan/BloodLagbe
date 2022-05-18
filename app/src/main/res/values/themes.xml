@@ -14,11 +14,9 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="TextInputLayoutStyle"
-        parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
         <item name="strokeColor">@color/app_PrimaryColor</item>
         <item name="strokeWidth">2dp</item>
     </style>
-
 
 </resources>

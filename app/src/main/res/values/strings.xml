@@ -3,6 +3,22 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="forget_password_title">Forget Password?</string>
+    <string name="forget_password_description">Provide your accounts email address to reset your password</string>
+    <string name="make_selection_title">Make Selection</string>
+    <string name="make_selection_description">Which contact details do you want to use?</string>
+    <string name="otp_verify_title">Code</string>
+    <string name="otp_verify_title_2">Verification</string>
+    <string name="otp_verify_description">Enter the OTP:</string>
+    <string name="set_new_password_title">New Credentials</string>
+    <string name="set_new_password_description">Your identity is verified. Please set a new password below.</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password_update_success_title">Password Updated</string>
+    <string name="password_update_success_description">Your password has been reset successfully!</string>
+    <string name="blood_group">Blood Group:</string>
+    <string name="user_name">User Name</string>
 
     <string-array name="bloodGroups">
         <item>Select your Blood Group</item>
@@ -15,4 +31,5 @@
         <item>AB+</item>
         <item>AB-</item>
     </string-array>
+
 </resources>

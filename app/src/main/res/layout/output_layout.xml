@@ -22,8 +22,10 @@
             <ImageView
                 android:layout_width="200dp"
                 android:layout_height="200dp"
+                android:padding="15dp"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ic_baseline_check_circle_outline_24" />
+                android:src="@drawable/ic_successful"
+                android:contentDescription="Successful icon" />
 
             <TextView
                 android:layout_width="match_parent"

@@ -9,8 +9,8 @@
         android:id="@+id/notification_profileImage"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_gravity="center"
-        android:src="@drawable/avatar_person"
+        android:layout_gravity="center|center_horizontal"
+        android:src="@drawable/profile_avatar"
         app:civ_border_color="@color/black"
         app:civ_border_width="1dp" />
 
