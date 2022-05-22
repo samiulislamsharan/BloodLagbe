@@ -1,10 +1,11 @@
 <resources>
+
     <string name="app_name">Blood Lagbe</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="forget_password_title">Forget Password?</string>
-    <string name="forget_password_description">Provide your accounts email address to reset your password</string>
+    <string name="forget_password_description">Provide your account\'s email address to reset your password</string>
     <string name="make_selection_title">Make Selection</string>
     <string name="make_selection_description">Which contact details do you want to use?</string>
     <string name="otp_verify_title">Code</string>
